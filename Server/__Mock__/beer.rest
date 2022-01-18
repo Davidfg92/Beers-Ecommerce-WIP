@@ -1,0 +1,5 @@
+GET http://localhost:3040/beer
+
+###
+
+GET http://localhost:3040/beer/61a513fc51a94f3a80c4e403

@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'braton';
+  src: url(../../fonts/BratonComposer-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'shot';
+  src: url('../../fonts/I\ shot\ the\ Serif\ v1.ttf');
+}
+
+.details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.details-card__image {
+  height: 100px;
+  width: 100px;
+  margin: 20px 0 0 138px
+}
+
+.details-card__name {
+  font-family: braton;
+}
+
+.details-card__prop {
+  font-family: shot;
+  font-size: 25px;
+  margin: 5px 0 0 0
+}
+
+.details-card__p {
+  font-family: shot;
+  margin: 5px 0 10px 0;
+  font-size: 18px;
+}
+
+.details-add {
+  margin: 0 40px 10px 40px;
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  -webkit-appearance: none;
+  background-color: rgba(36, 36, 36, 1);
+  appearance: none;
+  border-radius: 4px;
+  border: none;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+}

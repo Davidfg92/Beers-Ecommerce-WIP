@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'braton';
+  src: url(../../fonts/BratonComposer-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'shot';
+  src: url('../../fonts/I\ shot\ the\ Serif\ v1.ttf');
+}
+
+.body-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  font-family: braton;
+  text-align: center;
+}
+
+.info-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.info-register__p {
+  font-family: shot;
+  font-size: 20px;
+  text-align: center;
+}
+
+.info-register__button {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 115px 0 115px;
+  padding: 15px 0 15px 0;
+  color:rgb(255, 255, 255);;
+  background-color: rgba(36, 36, 36, 1);
+}
+
+.presentation {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.presentation__title {
+  font-family: braton;
+  font-size: 22px;
+}
+
+.presentation__p {
+  font-family: shot;
+  font-size: 18px;
+}
+
+.presentation__legend {
+  height: 301px;
+  overflow: scroll;
+}
+
+@media (min-width: 700px) {
+  .presentation__legend {
+    overflow: visible;
+    padding-bottom: 50px;
+  }
+
+  .body-presentation {
+    padding-top: 50px;
+  }
+}
+
+

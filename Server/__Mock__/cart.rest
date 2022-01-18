@@ -1,0 +1,35 @@
+GET http://localhost:3040/cart/
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRGF2aWQiLCJjYXJ0IjoiNjFhZjQwZmI0NTE3NDNkYTA4OWI3MmJkIiwiaWQiOiI2MWFmNDBmYjQ1MTc0M2RhMDg5YjcyYmIiLCJpYXQiOjE2Mzg4NzU4MjN9.JCsWQddK-whQwBvWOjWqlofZruuL4NPbUjMfjIapVAo
+
+###
+
+POST http://localhost:3040/cart/
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRGF2aWQiLCJjYXJ0IjoiNjFhZjQwZmI0NTE3NDNkYTA4OWI3MmJkIiwiaWQiOiI2MWFmNDBmYjQ1MTc0M2RhMDg5YjcyYmIiLCJpYXQiOjE2Mzg5NjMyNjN9.IUJnw3W9uhQDmLjcXpX-dLos6t8vTnmQEF9XRUBjA6U
+
+{
+  "beerId": "61a513fc51a94f3a80c4e403"
+}
+
+###
+
+DELETE http://localhost:3040/cart/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRGF2aWQiLCJjYXJ0IjoiNjFhN2IxNTU0NThiNjc2MDcxMjkyYTc1IiwiaWQiOiI2MWE3YjE1NTQ1OGI2NzYwNzEyOTJhNzMiLCJpYXQiOjE2MzgzNzk4NzB9.3kQmpLJdIRr3G21mJlfVUbqcxW9hiWi19YElv8l5RI8
+
+{
+  "beerId": "61a513fc51a94f3a80c4e403"
+}
+###
+
+PATCH http://localhost:3040/cart/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRGF2aWQiLCJjYXJ0IjoiNjFhN2IxNTU0NThiNjc2MDcxMjkyYTc1IiwiaWQiOiI2MWE3YjE1NTQ1OGI2NzYwNzEyOTJhNzMiLCJpYXQiOjE2Mzg1MzExODR9.1jbi7d0nIY1DmJPieHAVCfUThDNQtoxxXX62WkhPB7Y
+
+
+
+
+
+
+
+
+

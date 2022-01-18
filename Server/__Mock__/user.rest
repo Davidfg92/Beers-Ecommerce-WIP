@@ -1,0 +1,17 @@
+
+GET http://localhost:3040/user
+
+###
+
+GET http://localhost:3040/user/61b1c6b0ce8689a624f72bf7
+
+###
+
+POST http://localhost:3040/user
+content-type: application/json
+
+{
+  "name": "Miguel",
+  "password": "1234",
+  "email": "miguel6@isdi.com"
+}

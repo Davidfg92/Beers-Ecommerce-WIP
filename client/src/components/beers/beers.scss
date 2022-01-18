@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'shot';
+  src: url('../../fonts/I\ shot\ the\ Serif\ v1.ttf');
+}
+
+@font-face {
+  font-family: 'braton';
+  src: url(../../fonts/BratonComposer-Regular.ttf);
+}
+
+#root {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.text-input {
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5%;
+}
+
+.card {
+  padding: 0 0 80px 0;
+}
+
+.card__cover {
+  display: flex;
+  justify-content: center;
+}
+
+.card__item {
+  padding: 20px 0 20px 0
+}
+
+.card__beer {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid rgb(36, 36, 36);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgba(255, 254, 187, 0.37);
+}
+
+.card__image {
+  padding-top: 10px;
+  height: 150px;
+  border-radius: 1250%;
+}
+
+.card__title {
+  text-align:center;
+  font-family: shot;
+  color: rgba(36, 36, 36, 1)
+}
+
+.card__link {
+  text-decoration: none;
+}
+
+.card__p {
+  color: rgba(36, 36, 36, 1);
+  text-align:center;
+  font-family: shot;
+  font-weight: 100;
+  font-size: 22px
+}
+
+.card__p--stock {
+  color: rgb(51, 255, 0)
+}
+
+.card__p--no-stock {
+  color: rgb(255, 0, 0)
+}
+
+.card__button {
+  margin: 0 0 10px 0;
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  -webkit-appearance: none;
+  background-color: rgba(36, 36, 36, 1);
+  appearance: none;
+  border-radius: 4px;
+  border: none;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+}
+
+.beers-title {
+  text-align: center;
+  font-family: braton;
+  font-size: 30px;
+}
+
+@media (min-width: 700px) {
+
+  .card__item {
+    width: 200px
+  }
+
+  .beers-title {
+    padding-top: 40px;
+  }
+  .card__beer {
+    padding: 0 50px 0 50px;
+    height: 350px;
+    margin: 0 20px 0 20px
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
